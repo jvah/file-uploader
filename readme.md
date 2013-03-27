@@ -4,6 +4,28 @@
 
 ###I'm Considering removal of support for IE7 in a future release. [Comment here](https://github.com/valums/file-uploader/issues/637).###
 
+<br/>
+###Table of Contents###
+- [Summary](#summary)
+- [Features](#features)
+- [Getting started](#getting-started)
+- [Server-side Instructions](https://github.com/valums/file-uploader/blob/3.2-IP/server/readme.md)
+- [Using the optional jQuery plug-in](#using-the-optional-jquery-plug-in)
+- [Setting up the uploader without jQuery](#setting-up-the-uploader-without-jquery)
+- [How to override options](#how-to-override-options)
+- [Options of both FineUploader & FineUploaderBasic](#options-of-both-fineuploader--fineuploaderbasic)
+- [Options of FineUploader](#options-of-fineuploader)
+- [Styling FineUploader](#styling-fineuploader)
+- [Callbacks (FineUploader & FineUploaderBasic)](#callbacks-fineuploader--fineuploaderbasic)
+- [Changing alert/messages to something more user friendly](#changing-alertmessages-to-something-more-user-friendly)
+- [Instance methods](#instance-methods)
+- [qQuery (Utility Functions)](#qquery)
+- [Internet Explorer limitations](#internet-explorer-limitations)
+- [Building and using the in-progress version](#building-and-using-the-in-progress-version)
+- [Troubleshooting](#troubleshooting)
+- [Issue Tracker](#issue-tracker)
+- [License](#license)
+- [Contributors](#contributors)
 
 <br/>
 ## Authors ##
@@ -99,6 +121,26 @@ I didn't forget about you!  Read on, starting [here](docs/path-fineuploaderbasic
 * [@fineuploader](https://twitter.com/fineuploader)
 * [Demo](http://fineuploader.com)
 * [Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=6ZMVZSC4DBRVN&lc=US&item_name=Fine%20Uploader&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted)
+
+
+<br/>
+### Building and using the in-progress version ###
+You can use [gradle](http://www.gradle.org/) to build the in-progress version.  Simply clone this project, and run `gradlew combineJs`
+on the command-line.  This will combine all of the javascript files into one file, placing it in the 
+"build" directory.  If you want the minified or gzipped version of the in-progress version, simply replace
+`combineJs` on the command-line with `minifyJs` or `gzipJs`, respectively.
+
+If you would like the jQuery plug-in, simply add "jQuery" to the end of any of these tasks.  For example, to obtain the
+non-minified jQuery plug-in or the minified jQuery plug-in, run `gradlew combineJsJquery` or `gradlew minifyJsJquery`
+respectively.  This will build the Fine Uploader javascript file with the plug-in and everything else you need.
+
+Remember, a in-progress build is not yet released, so it may have some lingering bugs.  The trade-off is
+immediate access to new features without having to wait for a release.  
+
+In the future, I may integrate a CI system that creates nightly in-progress builds, but that is a pretty low-priority,
+especially since building your own in-progress version should be pretty easy.
+
+Don't forget to include the css and image files in your project if you are using FineUploader.
 
 
 <br/>
