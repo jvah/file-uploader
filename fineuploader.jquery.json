@@ -8,14 +8,14 @@
     "chunking",
     "file-uploader"
   ],
-  "version": "3.3.0",
+  "version": "3.3.1",
   "author": {
-    "name": "Andrew Valums and Ray Nicholus"
+    "name": "Andrew Valums, Ray Nicholus and Futurice Ltd"
   },
   "maintainers": [
     {
-      "name": "Ray Nicholus",
-      "url": "http://lnkd.in/Nkhx2C"
+      "name": "Futurice Ltd",
+      "url": "http://www.futurice.com/"
     }
   ],
   "licenses": [
@@ -32,11 +32,10 @@
       "url": "http://www.gnu.org/licenses/lgpl-2.0.txt"
     }
   ],
-  "bugs": "https://github.com/valums/file-uploader/issues",
-  "homepage": "http://fineuploader.com",
-  "demo": "http://fineuploader.com",
-  "docs": "https://github.com/valums/file-uploader/blob/master/readme.md",
-  "download": "https://github.com/valums/file-uploader/wiki/Releases",
+  "bugs": "https://github.com/futurice/file-uploader/issues",
+  "homepage": "https://github.com/futurice/file-uploader/",
+  "docs": "https://github.com/futurice/file-uploader/blob/master/readme.md",
+  "download": "https://github.com/futurice/file-uploader/wiki/Releases",
   "dependencies": {
     "jquery": ">=1.5"
   }

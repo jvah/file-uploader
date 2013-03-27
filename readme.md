@@ -1,15 +1,18 @@
-# Fine Uploader 3.3 (Released February 21, 2013) #
+# File Uploader 3.3.1 (Released March 27, 2013) #
 
-###[Download the 3.3 combined & minified javascript file (along with all other required files) here](https://github.com/valums/file-uploader/wiki/Releases)###
+###[Download the 3.3.1 combined & minified javascript file (along with all other required files) here](https://github.com/futurice/file-uploader/wiki/Releases)###
 
-###I'm Considering removal of support for IE7 in a future release. [Comment here](https://github.com/valums/file-uploader/issues/637).###
+<br/>
+## Authors ##
+Actively developed by [Futurice Ltd](http://www.futurice.com/)
+Created by Andrew Valums and Ray Nicholus.
 
 <br/>
 ###Table of Contents###
 - [Summary](#summary)
 - [Features](#features)
 - [Getting started](#getting-started)
-- [Server-side Instructions](https://github.com/valums/file-uploader/blob/3.2-IP/server/readme.md)
+- [Server-side Instructions](https://github.com/futurice/file-uploader/blob/3.2-IP/server/readme.md)
 - [Using the optional jQuery plug-in](#using-the-optional-jquery-plug-in)
 - [Setting up the uploader without jQuery](#setting-up-the-uploader-without-jquery)
 - [How to override options](#how-to-override-options)
@@ -112,17 +115,6 @@ Look no further, your plan of action is described [here](docs/path-fineuploader.
 ### FineUploaderBasic mode users ###
 I didn't forget about you!  Read on, starting [here](docs/path-fineuploaderbasic.md).
 
-
-<br/>
-## Important Fine Uploader Links ##
-* [Downloads](https://github.com/valums/file-uploader/wiki/Releases)
-* [Support](http://fineuploader.com/support.html)
-* [Blog](http://blog.fineuploader.com)
-* [@fineuploader](https://twitter.com/fineuploader)
-* [Demo](http://fineuploader.com)
-* [Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=6ZMVZSC4DBRVN&lc=US&item_name=Fine%20Uploader&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted)
-
-
 <br/>
 ### Building and using the in-progress version ###
 You can use [gradle](http://www.gradle.org/) to build the in-progress version.  Simply clone this project, and run `gradlew combineJs`
@@ -163,7 +155,7 @@ If you are having other issues, please read [the FAQ section](docs/faq.md) befor
 
 <br/>
 ### Issue Tracker ###
-Have a bug or feature request? Please [create an issue here on GitHub](https://github.com/valums/file-uploader/issues) 
+Have a bug or feature request? Please [create an issue here on GitHub](https://github.com/futurice/file-uploader/issues) 
 that conforms with [necolas's guidelines](https://github.com/necolas/issue-guidelines/blob/master/README.md).
 
 
